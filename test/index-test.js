@@ -7,7 +7,7 @@ describe('Beatles Loops', function() {
   });
 
   describe('johnLennonFacts', function(){
-  ("returns an array of strings with exclamation points", function() {
+ ("returns an array of strings with exclamation points", function() {
       expect(johnLennonFacts([
         "He was the last Beatle to learn to drive",
         "He was never a vegetarian",
@@ -23,12 +23,12 @@ describe('Beatles Loops', function() {
   });
 
   describe('iLoveTheBeatles', function() {
-  ("returns an array of 'I love the Beatles!' and checks to see if the paramet is less than 15 ", function() {
+("returns an array of 'I love the Beatles!' and checks to see if the paramet is less than 15 ", function() {
       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
     });
 
-    it("returns an array of 'I love the Beatles!' once when passed the parameter 17", function() {
-      expect(iLoveTheBeatles(15)).toEqual(["I love the Beatles!"]);
+("returns an array of 'I love the Beatles!'when the parameter is less than 15", function() {
+      expect(iLoveTheBeatles(["1", "2", "3", "4", "...", "14"])).toEqual(["I love the Beatles!"]);
     });
   });
 
