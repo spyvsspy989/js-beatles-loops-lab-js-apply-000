@@ -6,7 +6,7 @@ describe('Beatles Loops', function() {
     expect(theBeatlesPlay(musicians, instruments)).toEqual(["John Lennon plays Guitar", "Paul McCartney plays Bass Guitar", "George Harrison plays Lead Guitar", "Ringo Starr plays Drums"]);
   });
 
-  describe('johnLennonFacts', function(){
+ describe('johnLennonFacts', function(){
  ("returns an array of strings with exclamation points", function() {
       expect(johnLennonFacts([
         "He was the last Beatle to learn to drive",
@@ -22,9 +22,9 @@ describe('Beatles Loops', function() {
     });
   });
 
-  describe('iLoveTheBeatles', function() {
+describe('iLoveTheBeatles', function() {
 ("returns an array of 'I love the Beatles!' and checks to see if the paramet is less than 15 ", function() {
-      expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
+      expect(iLoveTheBeatles(16.toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
     });
 
 ("returns an array of 'I love the Beatles!'when the parameter is less than 15", function() {
